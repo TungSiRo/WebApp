@@ -1,0 +1,28 @@
+.sort-hearder {
+    display: flex;
+    justify-content: space-around ;
+
+    i {
+        cursor: pointer;
+        padding: 0 4px;
+    }
+}
+
+.add-new {
+    align-items: center;
+    justify-content: space-between;
+    
+    .group-btns {
+        display: flex;
+        gap: 5px;
+    }
+   
+  }
+.form-control {
+     border: 2px solid #6754536f
+}
+
+.customize-table {
+    width: inherit;
+    overflow-x: auto;
+}

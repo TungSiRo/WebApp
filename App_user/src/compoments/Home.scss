@@ -1,0 +1,16 @@
+.home-container{
+    background-color: rgb(220, 194, 194);
+    border-radius: 10px;
+    box-shadow: 0 0 20px #38233c;
+    height: 400px;
+
+    h2 {
+        display: flex;
+        color: rgb(220, 87, 57);
+        justify-content: center;
+    }
+    .hovr {
+        margin-left: 30px;
+    }
+}
+

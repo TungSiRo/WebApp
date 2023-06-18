@@ -1,0 +1,86 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-container {
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+    .title {
+      text-align: center;
+      font-size: 50px;
+      font-weight: 600;
+      padding-top: 80px;
+    }
+    .text {
+      font-weight: 600;
+      padding-bottom: 3px;
+      margin-top: 30px;
+    }
+    input {
+      height: 45px;
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #cac3c3;
+      outline: none;
+      
+      &:hover {
+        border: 2px solid #955355e4;
+      }
+    }
+
+    button {
+       height: 45px;
+       border-radius: 5px;
+       border: none;
+       outline: none;
+       margin-top: 15px;
+       background-color: #877f7f;
+
+      &.active {
+        background-color: rgb(208, 23, 23);
+        color: white;
+      }
+      
+      button[disabled=disabled], button:disabled {
+        // your css rules
+        cursor: not-allowed;
+        background-color: rgb(229, 229, 229)
+    }
+    }
+
+    .back {
+      text-align: center;
+      margin-top: 30px;
+      font-weight: 600;
+      cursor: pointer;
+    } 
+    .input-password {
+      position: relative;
+      
+      i {
+        position: absolute;
+        top: 17px;
+        right: 10px;
+      }
+    }
+  }
+}
